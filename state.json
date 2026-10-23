@@ -18,6 +18,7 @@
   "BTC-USD|1d|2026-10-22 00:00|rib:TRIMESTRE:-1",
   "BTC-USD|1wk|2026-10-12 00:00|pivot_dn:GRAPHIQUE",
   "BTC-USD|2h|2026-10-23 06:00|mom:0",
+  "BTC-USD|2h|2026-10-23 08:00|mom:1",
   "ETH-USD|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "ETH-USD|1wk|2026-10-12 00:00|ema:0",
   "ETH-USD|1wk|2026-10-12 00:00|pivot_dn:GRAPHIQUE",
@@ -218,6 +219,13 @@
    "tf": "2h",
    "bar": "2026-10-23 06:00",
    "text": "MOMENTUM GRIS"
+  },
+  {
+   "time": "2026-10-23 14:18",
+   "symbol": "BTC-USD",
+   "tf": "2h",
+   "bar": "2026-10-23 08:00",
+   "text": "MOMENTUM VERT"
   }
  ],
  "snapshot": {
@@ -729,10 +737,10 @@
    "A1": -1
   },
   "BTC-USD|2h": {
-   "bar": "2026-10-23 06:00",
-   "close": 81616.15625,
+   "bar": "2026-10-23 08:00",
+   "close": 81900.9609375,
    "ema180": 0,
-   "mom": 0,
+   "mom": 1,
    "M": 1,
    "W": 1,
    "D": 1,
