@@ -1,0 +1,62 @@
+# ─────────────────────────────────────────────────────────────
+#  Configuration du scanner Swing Pullback V5
+# ─────────────────────────────────────────────────────────────
+
+# Unités de temps analysées : "2h", "1d" (journalier), "1wk" (hebdomadaire)
+timeframes: ["1d", "1wk", "2h"]
+
+# Événements à signaler (équivalent des cases de l'alerte unique TradingView)
+events:
+  buy: true        # Achat swing
+  hh: true         # Cassure HH (2 sommets ascendants)
+  ema180: true     # Changement de couleur de l'EMA 180
+  table: true      # Changement de couleur du tableau Mensuel / Hebdo / Journalier
+  pivot: true      # Clôture qui casse une ligne pivot
+  ribbons: true    # Changement de couleur des rubans T / S / A / A-1
+  momentum: true   # Changement de couleur du momentum
+
+# Paramètres : mêmes valeurs par défaut que le script Pine (à modifier si besoin)
+params:
+  trend_len: 50
+  slope_bars: 5
+  use_weekly: true
+  weekly_len: 30
+  pb_len: 20
+  pb_bars: 5
+  use_rsi: true
+  rsi_len: 14
+  rsi_dip: 45
+  stop_mode: pullback    # "pullback" (plus bas du repli) ou "atr"
+  atr_len: 14
+  atr_mult: 2.0
+  rr: 2.0
+  hh_pivot: 2
+  ema_long: 180
+  table_fast: 15
+  table_slow_monthly: 50
+  pivot_lens: [5, 25, 50, 100]
+  pivot_enabled: [true, true, true, true]
+  mom_ema: 15
+  linreg_on: true
+  linreg_len: 11
+  sma_signal: true
+  signal_len: 11
+
+# Liste de surveillance : symboles au format Yahoo Finance.
+#   US : AAPL      Paris : MC.PA      Francfort : SAP.DE      Londres : SHEL.L
+#   Crypto : BTC-USD      Indices : ^FCHI
+tickers:
+  - AAPL
+  - MSFT
+  - NVDA
+  - AMZN
+  - GOOGL
+  - MC.PA
+  - OR.PA
+  - AIR.PA
+  - TTE.PA
+  - SAN.PA
+  - SAP.DE
+  - ASML.AS
+  - BTC-USD
+  - ETH-USD
