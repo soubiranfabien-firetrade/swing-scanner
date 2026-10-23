@@ -14,6 +14,7 @@
   "AMZN|1d|2026-10-22 00:00|rib:TRIMESTRE:-1",
   "AMZN|1wk|2026-10-12 00:00|mom:0",
   "AMZN|1wk|2026-10-12 00:00|rib:TRIMESTRE:-1",
+  "AMZN|2h|2026-10-23 13:30|pivot_dn:GRAPHIQUE",
   "ASML.AS|1wk|2026-10-12 00:00|mom:-1",
   "BTC-USD|1d|2026-10-22 00:00|mom:-1",
   "BTC-USD|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
@@ -29,16 +30,19 @@
   "ETH-USD|2h|2026-10-23 08:00|mom:1",
   "ETH-USD|2h|2026-10-23 10:00|mom:0",
   "ETH-USD|2h|2026-10-23 12:00|mom:1",
+  "ETH-USD|2h|2026-10-23 14:00|mom:0",
   "GOOGL|1d|2026-10-22 00:00|ema:0",
   "GOOGL|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "GOOGL|1wk|2026-10-12 00:00|mom:0",
   "GOOGL|1wk|2026-10-12 00:00|rib:TRIMESTRE:-1",
   "MSFT|1d|2026-10-22 00:00|mom:0",
   "MSFT|2h|2026-10-23 09:30|pivot_up:GRAPHIQUE",
+  "MSFT|2h|2026-10-23 13:30|pivot_dn:GRAPHIQUE",
   "NVDA|1wk|2026-10-12 00:00|mom:0",
   "NVDA|2h|2026-10-22 13:30|mom:-1",
   "NVDA|2h|2026-10-22 13:30|pivot_dn:GRAPHIQUE",
   "NVDA|2h|2026-10-23 11:30|pivot_dn:JOURNALIER,HEBDO",
+  "NVDA|2h|2026-10-23 13:30|pivot_up:JOURNALIER,HEBDO",
   "OR.PA|1d|2026-10-22 00:00|hh",
   "OR.PA|1wk|2026-10-12 00:00|mom:1",
   "OR.PA|1wk|2026-10-12 00:00|pivot_up:GRAPHIQUE",
@@ -290,6 +294,34 @@
    "tf": "2h",
    "bar": "2026-10-23 12:00",
    "text": "MOMENTUM VERT"
+  },
+  {
+   "time": "2026-10-23 20:04",
+   "symbol": "MSFT",
+   "tf": "2h",
+   "bar": "2026-10-23 13:30",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE)"
+  },
+  {
+   "time": "2026-10-23 20:04",
+   "symbol": "NVDA",
+   "tf": "2h",
+   "bar": "2026-10-23 13:30",
+   "text": "CASSURE PIVOT HAUSSIÈRE (JOURNALIER, HEBDO)"
+  },
+  {
+   "time": "2026-10-23 20:04",
+   "symbol": "AMZN",
+   "tf": "2h",
+   "bar": "2026-10-23 13:30",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE)"
+  },
+  {
+   "time": "2026-10-23 20:04",
+   "symbol": "ETH-USD",
+   "tf": "2h",
+   "bar": "2026-10-23 14:00",
+   "text": "MOMENTUM GRIS"
   }
  ],
  "snapshot": {
@@ -489,8 +521,8 @@
    "A1": 1
   },
   "AAPL|2h": {
-   "bar": "2026-10-23 11:30",
-   "close": 346.2300109863281,
+   "bar": "2026-10-23 13:30",
+   "close": 346.6400146484375,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -515,8 +547,8 @@
    "A1": 1
   },
   "MSFT|2h": {
-   "bar": "2026-10-23 11:30",
-   "close": 524.85498046875,
+   "bar": "2026-10-23 13:30",
+   "close": 523.5999755859375,
    "ema180": 1,
    "mom": -1,
    "M": 1,
@@ -541,8 +573,8 @@
    "A1": 1
   },
   "NVDA|2h": {
-   "bar": "2026-10-23 11:30",
-   "close": 211.6300048828125,
+   "bar": "2026-10-23 13:30",
+   "close": 211.76499938964844,
    "ema180": 0,
    "mom": -1,
    "M": 1,
@@ -567,8 +599,8 @@
    "A1": 1
   },
   "AMZN|2h": {
-   "bar": "2026-10-23 11:30",
-   "close": 249.0399932861328,
+   "bar": "2026-10-23 13:30",
+   "close": 248.25,
    "ema180": 0,
    "mom": -1,
    "M": 1,
@@ -593,8 +625,8 @@
    "A1": 1
   },
   "GOOGL|2h": {
-   "bar": "2026-10-23 11:30",
-   "close": 322.1449890136719,
+   "bar": "2026-10-23 13:30",
+   "close": 321.2099914550781,
    "ema180": 0,
    "mom": -1,
    "M": 1,
@@ -801,8 +833,8 @@
    "A1": -1
   },
   "BTC-USD|2h": {
-   "bar": "2026-10-23 12:00",
-   "close": 81541.15625,
+   "bar": "2026-10-23 14:00",
+   "close": 81174.0,
    "ema180": 0,
    "mom": 0,
    "M": 1,
@@ -827,10 +859,10 @@
    "A1": -1
   },
   "ETH-USD|2h": {
-   "bar": "2026-10-23 12:00",
-   "close": 2406.72998046875,
+   "bar": "2026-10-23 14:00",
+   "close": 2390.60009765625,
    "ema180": 0,
-   "mom": 1,
+   "mom": 0,
    "M": 1,
    "W": -1,
    "D": 1,
