@@ -2,6 +2,7 @@
  "sent": [
   "AAPL|1d|2026-10-22 00:00|hh",
   "AAPL|1d|2026-10-22 00:00|pivot_up:GRAPHIQUE,HEBDO",
+  "AAPL|1d|2026-10-23 00:00|pivot_dn:GRAPHIQUE",
   "AAPL|2h|2026-10-22 15:30|pivot_up:GRAPHIQUE,JOURNALIER",
   "AAPL|2h|2026-10-23 11:30|pivot_dn:GRAPHIQUE,JOURNALIER",
   "AIR.PA|1d|2026-10-22 00:00|rib:SEMESTRE:-1",
@@ -12,6 +13,7 @@
   "AMZN|1d|2026-10-22 00:00|mom:0",
   "AMZN|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE",
   "AMZN|1d|2026-10-22 00:00|rib:TRIMESTRE:-1",
+  "AMZN|1d|2026-10-23 00:00|mom:-1",
   "AMZN|1wk|2026-10-12 00:00|mom:0",
   "AMZN|1wk|2026-10-12 00:00|rib:TRIMESTRE:-1",
   "AMZN|2h|2026-10-23 13:30|pivot_dn:GRAPHIQUE",
@@ -36,8 +38,10 @@
   "GOOGL|1wk|2026-10-12 00:00|mom:0",
   "GOOGL|1wk|2026-10-12 00:00|rib:TRIMESTRE:-1",
   "MSFT|1d|2026-10-22 00:00|mom:0",
+  "MSFT|1d|2026-10-23 00:00|mom:-1",
   "MSFT|2h|2026-10-23 09:30|pivot_up:GRAPHIQUE",
   "MSFT|2h|2026-10-23 13:30|pivot_dn:GRAPHIQUE",
+  "NVDA|1d|2026-10-23 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "NVDA|1wk|2026-10-12 00:00|mom:0",
   "NVDA|2h|2026-10-22 13:30|mom:-1",
   "NVDA|2h|2026-10-22 13:30|pivot_dn:GRAPHIQUE",
@@ -322,12 +326,40 @@
    "tf": "2h",
    "bar": "2026-10-23 14:00",
    "text": "MOMENTUM GRIS"
+  },
+  {
+   "time": "2026-10-24 05:53",
+   "symbol": "AAPL",
+   "tf": "1d",
+   "bar": "2026-10-23 00:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE)"
+  },
+  {
+   "time": "2026-10-24 05:53",
+   "symbol": "MSFT",
+   "tf": "1d",
+   "bar": "2026-10-23 00:00",
+   "text": "MOMENTUM ROUGE"
+  },
+  {
+   "time": "2026-10-24 05:53",
+   "symbol": "NVDA",
+   "tf": "1d",
+   "bar": "2026-10-23 00:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, HEBDO)"
+  },
+  {
+   "time": "2026-10-24 05:53",
+   "symbol": "AMZN",
+   "tf": "1d",
+   "bar": "2026-10-23 00:00",
+   "text": "MOMENTUM ROUGE"
   }
  ],
  "snapshot": {
   "AAPL|1d": {
-   "bar": "2026-10-22 00:00",
-   "close": 348.2200012207031,
+   "bar": "2026-10-23 00:00",
+   "close": 347.7300109863281,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -339,10 +371,10 @@
    "A1": 1
   },
   "MSFT|1d": {
-   "bar": "2026-10-22 00:00",
-   "close": 521.0800170898438,
+   "bar": "2026-10-23 00:00",
+   "close": 524.510009765625,
    "ema180": 1,
-   "mom": 0,
+   "mom": -1,
    "M": 1,
    "W": 1,
    "D": 1,
@@ -352,8 +384,8 @@
    "A1": 1
   },
   "NVDA|1d": {
-   "bar": "2026-10-22 00:00",
-   "close": 212.2100067138672,
+   "bar": "2026-10-23 00:00",
+   "close": 210.9600067138672,
    "ema180": 1,
    "mom": -1,
    "M": 1,
@@ -365,10 +397,10 @@
    "A1": 1
   },
   "AMZN|1d": {
-   "bar": "2026-10-22 00:00",
-   "close": 250.3800048828125,
+   "bar": "2026-10-23 00:00",
+   "close": 248.0,
    "ema180": 1,
-   "mom": 0,
+   "mom": -1,
    "M": 1,
    "W": 1,
    "D": 1,
@@ -378,8 +410,8 @@
    "A1": 1
   },
   "GOOGL|1d": {
-   "bar": "2026-10-22 00:00",
-   "close": 324.2200012207031,
+   "bar": "2026-10-23 00:00",
+   "close": 320.2099914550781,
    "ema180": 0,
    "mom": -1,
    "M": 1,
