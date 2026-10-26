@@ -39,6 +39,8 @@
   "BTC-USD|2h|2026-10-26 02:00|pivot_dn:GRAPHIQUE",
   "BTC-USD|2h|2026-10-26 04:00|mom:0",
   "BTC-USD|2h|2026-10-26 04:00|pivot_up:GRAPHIQUE",
+  "BTC-USD|2h|2026-10-26 08:00|mom:-1",
+  "BTC-USD|2h|2026-10-26 08:00|pivot_dn:GRAPHIQUE,JOURNALIER",
   "ETH-USD|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "ETH-USD|1wk|2026-10-12 00:00|ema:0",
   "ETH-USD|1wk|2026-10-12 00:00|pivot_dn:GRAPHIQUE",
@@ -52,6 +54,7 @@
   "ETH-USD|2h|2026-10-26 02:00|pivot_dn:GRAPHIQUE,JOURNALIER",
   "ETH-USD|2h|2026-10-26 04:00|mom:0",
   "ETH-USD|2h|2026-10-26 04:00|pivot_up:GRAPHIQUE,JOURNALIER",
+  "ETH-USD|2h|2026-10-26 08:00|pivot_dn:GRAPHIQUE,JOURNALIER",
   "GOOGL|1d|2026-10-22 00:00|ema:0",
   "GOOGL|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "GOOGL|1wk|2026-10-12 00:00|mom:0",
@@ -61,6 +64,7 @@
   "MC.PA|1d|2026-10-23 00:00|rib:TRIMESTRE:-1",
   "MC.PA|2h|2026-10-26 04:00|mom:0",
   "MC.PA|2h|2026-10-26 04:00|rib:TRIMESTRE:1",
+  "MC.PA|2h|2026-10-26 08:00|mom:1",
   "MSFT|1d|2026-10-22 00:00|mom:0",
   "MSFT|1d|2026-10-23 00:00|mom:-1",
   "MSFT|2h|2026-10-23 09:30|pivot_up:GRAPHIQUE",
@@ -80,6 +84,8 @@
   "SAN.PA|1d|2026-10-23 00:00|rib:TRIMESTRE:-1",
   "SAN.PA|1wk|2026-10-19 00:00|mom:0",
   "SAN.PA|2h|2026-10-26 04:00|rib:TRIMESTRE:1",
+  "SAN.PA|2h|2026-10-26 08:00|pivot_up:GRAPHIQUE",
+  "SAN.PA|2h|2026-10-26 08:00|rib:TRIMESTRE:1",
   "SAP.DE|1wk|2026-10-12 00:00|hh",
   "SAP.DE|1wk|2026-10-12 00:00|rib:ANNÉE:1",
   "SAP.DE|1wk|2026-10-12 00:00|table:HEBDO:1",
@@ -524,6 +530,34 @@
    "tf": "2h",
    "bar": "2026-10-26 04:00",
    "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE, JOURNALIER) ; MOMENTUM GRIS"
+  },
+  {
+   "time": "2026-10-26 14:00",
+   "symbol": "MC.PA",
+   "tf": "2h",
+   "bar": "2026-10-26 08:00",
+   "text": "MOMENTUM VERT"
+  },
+  {
+   "time": "2026-10-26 14:00",
+   "symbol": "SAN.PA",
+   "tf": "2h",
+   "bar": "2026-10-26 08:00",
+   "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE) ; TRIMESTRE BLEU"
+  },
+  {
+   "time": "2026-10-26 14:00",
+   "symbol": "BTC-USD",
+   "tf": "2h",
+   "bar": "2026-10-26 08:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, JOURNALIER) ; MOMENTUM ROUGE"
+  },
+  {
+   "time": "2026-10-26 14:00",
+   "symbol": "ETH-USD",
+   "tf": "2h",
+   "bar": "2026-10-26 08:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, JOURNALIER)"
   }
  ],
  "snapshot": {
@@ -853,14 +887,14 @@
    "A1": -1
   },
   "MC.PA|2h": {
-   "bar": "2026-10-26 04:00",
-   "close": 387.70001220703125,
+   "bar": "2026-10-26 08:00",
+   "close": 386.6499938964844,
    "ema180": 0,
-   "mom": 0,
+   "mom": 1,
    "M": -1,
    "W": -1,
    "D": -1,
-   "T": 1,
+   "T": -1,
    "S": -1,
    "A": -1,
    "A1": -1
@@ -879,8 +913,8 @@
    "A1": 1
   },
   "OR.PA|2h": {
-   "bar": "2026-10-26 04:00",
-   "close": 438.95001220703125,
+   "bar": "2026-10-26 08:00",
+   "close": 440.54998779296875,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -905,15 +939,15 @@
    "A1": 1
   },
   "AIR.PA|2h": {
-   "bar": "2026-10-26 04:00",
-   "close": 195.86000061035156,
+   "bar": "2026-10-26 08:00",
+   "close": 194.27999877929688,
    "ema180": 1,
    "mom": 0,
    "M": 1,
    "W": 1,
    "D": 1,
    "T": 1,
-   "S": 1,
+   "S": -1,
    "A": -1,
    "A1": -1
   },
@@ -931,8 +965,8 @@
    "A1": 1
   },
   "TTE.PA|2h": {
-   "bar": "2026-10-26 04:00",
-   "close": 82.87000274658203,
+   "bar": "2026-10-26 08:00",
+   "close": 83.3499984741211,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -957,8 +991,8 @@
    "A1": -1
   },
   "SAN.PA|2h": {
-   "bar": "2026-10-26 04:00",
-   "close": 74.73999786376953,
+   "bar": "2026-10-26 08:00",
+   "close": 74.87999725341797,
    "ema180": 1,
    "mom": 1,
    "M": -1,
@@ -983,8 +1017,8 @@
    "A1": -1
   },
   "SAP.DE|2h": {
-   "bar": "2026-10-26 04:00",
-   "close": 216.35000610351562,
+   "bar": "2026-10-26 08:00",
+   "close": 214.4499969482422,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -1009,8 +1043,8 @@
    "A1": 1
   },
   "ASML.AS|2h": {
-   "bar": "2026-10-26 04:00",
-   "close": 1413.800048828125,
+   "bar": "2026-10-26 08:00",
+   "close": 1426.4000244140625,
    "ema180": 0,
    "mom": -1,
    "M": 1,
@@ -1035,10 +1069,10 @@
    "A1": -1
   },
   "BTC-USD|2h": {
-   "bar": "2026-10-26 04:00",
-   "close": 80422.2265625,
+   "bar": "2026-10-26 08:00",
+   "close": 79545.890625,
    "ema180": 0,
-   "mom": 0,
+   "mom": -1,
    "M": 1,
    "W": 1,
    "D": 1,
@@ -1061,10 +1095,10 @@
    "A1": -1
   },
   "ETH-USD|2h": {
-   "bar": "2026-10-26 04:00",
-   "close": 2332.93994140625,
+   "bar": "2026-10-26 08:00",
+   "close": 2298.89990234375,
    "ema180": 0,
-   "mom": 0,
+   "mom": -1,
    "M": 1,
    "W": -1,
    "D": 1,
