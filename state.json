@@ -33,6 +33,7 @@
   "BTC-USD|2h|2026-10-23 08:00|mom:1",
   "BTC-USD|2h|2026-10-23 10:00|mom:0",
   "BTC-USD|2h|2026-10-26 00:00|pivot_up:GRAPHIQUE,JOURNALIER",
+  "BTC-USD|2h|2026-10-26 02:00|pivot_dn:GRAPHIQUE",
   "ETH-USD|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "ETH-USD|1wk|2026-10-12 00:00|ema:0",
   "ETH-USD|1wk|2026-10-12 00:00|pivot_dn:GRAPHIQUE",
@@ -43,6 +44,7 @@
   "ETH-USD|2h|2026-10-23 12:00|mom:1",
   "ETH-USD|2h|2026-10-23 14:00|mom:0",
   "ETH-USD|2h|2026-10-26 00:00|pivot_up:GRAPHIQUE,JOURNALIER",
+  "ETH-USD|2h|2026-10-26 02:00|pivot_dn:GRAPHIQUE,JOURNALIER",
   "GOOGL|1d|2026-10-22 00:00|ema:0",
   "GOOGL|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "GOOGL|1wk|2026-10-12 00:00|mom:0",
@@ -463,6 +465,20 @@
    "tf": "2h",
    "bar": "2026-10-26 00:00",
    "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE, JOURNALIER)"
+  },
+  {
+   "time": "2026-10-26 08:24",
+   "symbol": "BTC-USD",
+   "tf": "2h",
+   "bar": "2026-10-26 02:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE)"
+  },
+  {
+   "time": "2026-10-26 08:24",
+   "symbol": "ETH-USD",
+   "tf": "2h",
+   "bar": "2026-10-26 02:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, JOURNALIER)"
   }
  ],
  "snapshot": {
@@ -871,7 +887,7 @@
   },
   "TTE.PA|2h": {
    "bar": "2026-10-23 09:00",
-   "close": 83.55999755859375,
+   "close": 83.55000305175781,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -974,8 +990,8 @@
    "A1": -1
   },
   "BTC-USD|2h": {
-   "bar": "2026-10-26 00:00",
-   "close": 80145.2265625,
+   "bar": "2026-10-26 02:00",
+   "close": 79911.46875,
    "ema180": 0,
    "mom": -1,
    "M": 1,
@@ -1000,8 +1016,8 @@
    "A1": -1
   },
   "ETH-USD|2h": {
-   "bar": "2026-10-26 00:00",
-   "close": 2324.030029296875,
+   "bar": "2026-10-26 02:00",
+   "close": 2315.030029296875,
    "ema180": 0,
    "mom": -1,
    "M": 1,
