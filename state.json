@@ -70,6 +70,7 @@
   "BTC-USD|2h|2026-10-27 08:00|mom:0",
   "BTC-USD|2h|2026-10-27 14:00|mom:1",
   "BTC-USD|2h|2026-10-27 14:00|pivot_up:GRAPHIQUE",
+  "BTC-USD|2h|2026-10-27 16:00|pivot_up:GRAPHIQUE",
   "ETH-USD|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "ETH-USD|1wk|2026-10-12 00:00|ema:0",
   "ETH-USD|1wk|2026-10-12 00:00|pivot_dn:GRAPHIQUE",
@@ -909,6 +910,13 @@
    "tf": "2h",
    "bar": "2026-10-27 14:00",
    "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE) ; MOMENTUM VERT"
+  },
+  {
+   "time": "2026-10-27 22:14",
+   "symbol": "BTC-USD",
+   "tf": "2h",
+   "bar": "2026-10-27 16:00",
+   "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE)"
   }
  ],
  "snapshot": {
@@ -1395,7 +1403,7 @@
   },
   "ASML.AS|2h": {
    "bar": "2026-10-27 10:00",
-   "close": 1469.800048828125,
+   "close": 1469.5999755859375,
    "ema180": 0,
    "mom": 1,
    "M": 1,
@@ -1420,8 +1428,8 @@
    "A1": -1
   },
   "BTC-USD|2h": {
-   "bar": "2026-10-27 14:00",
-   "close": 80708.8125,
+   "bar": "2026-10-27 16:00",
+   "close": 80782.546875,
    "ema180": 0,
    "mom": 1,
    "M": 1,
@@ -1446,8 +1454,8 @@
    "A1": -1
   },
   "ETH-USD|2h": {
-   "bar": "2026-10-27 14:00",
-   "close": 2344.739990234375,
+   "bar": "2026-10-27 16:00",
+   "close": 2347.550048828125,
    "ema180": 0,
    "mom": 1,
    "M": 1,
