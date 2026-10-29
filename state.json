@@ -143,6 +143,7 @@
   "ETH-USD|2h|2026-10-29 02:00|pivot_dn:GRAPHIQUE",
   "ETH-USD|2h|2026-10-29 06:00|pivot_up:GRAPHIQUE,JOURNALIER",
   "ETH-USD|2h|2026-10-29 10:00|mom:0",
+  "ETH-USD|2h|2026-10-29 14:00|mom:-1",
   "GOOGL|1d|2026-10-22 00:00|ema:0",
   "GOOGL|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "GOOGL|1d|2026-10-28 00:00|table:JOURNALIER:-1",
@@ -1458,6 +1459,13 @@
    "tf": "2h",
    "bar": "2026-10-29 13:30",
    "text": "MOMENTUM ROUGE"
+  },
+  {
+   "time": "2026-10-29 20:22",
+   "symbol": "ETH-USD",
+   "tf": "2h",
+   "bar": "2026-10-29 14:00",
+   "text": "MOMENTUM ROUGE"
   }
  ],
  "snapshot": {
@@ -1969,8 +1977,8 @@
    "A1": -1
   },
   "BTC-USD|2h": {
-   "bar": "2026-10-29 12:00",
-   "close": 80798.4921875,
+   "bar": "2026-10-29 14:00",
+   "close": 80746.0078125,
    "ema180": 0,
    "mom": 0,
    "M": 1,
@@ -1995,10 +2003,10 @@
    "A1": -1
   },
   "ETH-USD|2h": {
-   "bar": "2026-10-29 12:00",
-   "close": 2338.550048828125,
+   "bar": "2026-10-29 14:00",
+   "close": 2334.1298828125,
    "ema180": 0,
-   "mom": 0,
+   "mom": -1,
    "M": 1,
    "W": -1,
    "D": 1,
