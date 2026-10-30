@@ -6,6 +6,7 @@
   "AAPL|1d|2026-10-26 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "AAPL|1d|2026-10-27 00:00|pivot_up:GRAPHIQUE,HEBDO",
   "AAPL|1d|2026-10-28 00:00|pivot_dn:GRAPHIQUE,HEBDO",
+  "AAPL|1d|2026-10-29 00:00|pivot_up:GRAPHIQUE,HEBDO",
   "AAPL|1wk|2026-10-19 00:00|hh",
   "AAPL|1wk|2026-10-19 00:00|pivot_up:GRAPHIQUE",
   "AAPL|2h|2026-10-22 15:30|pivot_up:GRAPHIQUE,JOURNALIER",
@@ -59,6 +60,10 @@
   "AMZN|1d|2026-10-23 00:00|mom:-1",
   "AMZN|1d|2026-10-27 00:00|rib:TRIMESTRE:1",
   "AMZN|1d|2026-10-28 00:00|mom:0",
+  "AMZN|1d|2026-10-29 00:00|ema:0",
+  "AMZN|1d|2026-10-29 00:00|mom:-1",
+  "AMZN|1d|2026-10-29 00:00|pivot_dn:GRAPHIQUE,HEBDO",
+  "AMZN|1d|2026-10-29 00:00|rib:TRIMESTRE:-1",
   "AMZN|1wk|2026-10-12 00:00|mom:0",
   "AMZN|1wk|2026-10-12 00:00|rib:TRIMESTRE:-1",
   "AMZN|1wk|2026-10-19 00:00|mom:-1",
@@ -74,6 +79,7 @@
   "AMZN|2h|2026-10-29 09:30|rib:TRIMESTRE:-1",
   "AMZN|2h|2026-10-29 11:30|pivot_dn:GRAPHIQUE",
   "AMZN|2h|2026-10-29 13:30|mom:-1",
+  "ASML.AS|1d|2026-10-28 00:00|mom:0",
   "ASML.AS|1wk|2026-10-12 00:00|mom:-1",
   "ASML.AS|2h|2026-10-26 10:00|mom:0",
   "ASML.AS|2h|2026-10-27 04:00|mom:1",
@@ -150,6 +156,8 @@
   "GOOGL|1d|2026-10-22 00:00|ema:0",
   "GOOGL|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "GOOGL|1d|2026-10-28 00:00|table:JOURNALIER:-1",
+  "GOOGL|1d|2026-10-29 00:00|pivot_dn:GRAPHIQUE",
+  "GOOGL|1d|2026-10-29 00:00|rib:ANNÉE:-1",
   "GOOGL|1wk|2026-10-12 00:00|mom:0",
   "GOOGL|1wk|2026-10-12 00:00|rib:TRIMESTRE:-1",
   "GOOGL|1wk|2026-10-19 00:00|mom:-1",
@@ -216,6 +224,9 @@
   "SAN.PA|1d|2026-10-22 00:00|rib:TRIMESTRE:1",
   "SAN.PA|1d|2026-10-23 00:00|rib:TRIMESTRE:-1",
   "SAN.PA|1d|2026-10-27 00:00|rib:TRIMESTRE:1",
+  "SAN.PA|1d|2026-10-28 00:00|ema:1",
+  "SAN.PA|1d|2026-10-28 00:00|pivot_up:GRAPHIQUE",
+  "SAN.PA|1d|2026-10-28 00:00|rib:SEMESTRE:1",
   "SAN.PA|1wk|2026-10-19 00:00|mom:0",
   "SAN.PA|2h|2026-10-26 04:00|rib:TRIMESTRE:1",
   "SAN.PA|2h|2026-10-26 08:00|pivot_up:GRAPHIQUE",
@@ -1483,12 +1494,47 @@
    "tf": "2h",
    "bar": "2026-10-29 16:00",
    "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, JOURNALIER)"
+  },
+  {
+   "time": "2026-10-30 06:05",
+   "symbol": "AAPL",
+   "tf": "1d",
+   "bar": "2026-10-29 00:00",
+   "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE, HEBDO)"
+  },
+  {
+   "time": "2026-10-30 06:05",
+   "symbol": "AMZN",
+   "tf": "1d",
+   "bar": "2026-10-29 00:00",
+   "text": "EMA 180 VIOLETTE (descendante) ; CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, HEBDO) ; TRIMESTRE ROSE ; MOMENTUM ROUGE"
+  },
+  {
+   "time": "2026-10-30 06:05",
+   "symbol": "GOOGL",
+   "tf": "1d",
+   "bar": "2026-10-29 00:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE) ; ANNÉE ROSE"
+  },
+  {
+   "time": "2026-10-30 06:05",
+   "symbol": "SAN.PA",
+   "tf": "1d",
+   "bar": "2026-10-28 00:00",
+   "text": "EMA 180 ROSE (montante) ; CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE) ; SEMESTRE BLEU"
+  },
+  {
+   "time": "2026-10-30 06:05",
+   "symbol": "ASML.AS",
+   "tf": "1d",
+   "bar": "2026-10-28 00:00",
+   "text": "MOMENTUM GRIS"
   }
  ],
  "snapshot": {
   "AAPL|1d": {
-   "bar": "2026-10-28 00:00",
-   "close": 343.8299865722656,
+   "bar": "2026-10-29 00:00",
+   "close": 348.9100036621094,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -1500,8 +1546,8 @@
    "A1": 1
   },
   "MSFT|1d": {
-   "bar": "2026-10-28 00:00",
-   "close": 531.010009765625,
+   "bar": "2026-10-29 00:00",
+   "close": 530.1400146484375,
    "ema180": 1,
    "mom": 0,
    "M": 1,
@@ -1513,8 +1559,8 @@
    "A1": 1
   },
   "NVDA|1d": {
-   "bar": "2026-10-28 00:00",
-   "close": 215.3800048828125,
+   "bar": "2026-10-29 00:00",
+   "close": 213.66000366210938,
    "ema180": 1,
    "mom": -1,
    "M": 1,
@@ -1526,21 +1572,21 @@
    "A1": 1
   },
   "AMZN|1d": {
-   "bar": "2026-10-28 00:00",
-   "close": 254.60000610351562,
-   "ema180": 1,
-   "mom": 0,
+   "bar": "2026-10-29 00:00",
+   "close": 243.7899932861328,
+   "ema180": 0,
+   "mom": -1,
    "M": 1,
    "W": 1,
    "D": 1,
-   "T": 1,
+   "T": -1,
    "S": 1,
    "A": 1,
    "A1": 1
   },
   "GOOGL|1d": {
-   "bar": "2026-10-28 00:00",
-   "close": 324.8900146484375,
+   "bar": "2026-10-29 00:00",
+   "close": 283.82000732421875,
    "ema180": 0,
    "mom": -1,
    "M": 1,
@@ -1548,7 +1594,7 @@
    "D": -1,
    "T": -1,
    "S": -1,
-   "A": 1,
+   "A": -1,
    "A1": 1
   },
   "MC.PA|1d": {
@@ -1565,8 +1611,8 @@
    "A1": -1
   },
   "OR.PA|1d": {
-   "bar": "2026-10-27 00:00",
-   "close": 430.1000061035156,
+   "bar": "2026-10-28 00:00",
+   "close": 423.6499938964844,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -1578,8 +1624,8 @@
    "A1": 1
   },
   "AIR.PA|1d": {
-   "bar": "2026-10-27 00:00",
-   "close": 192.74000549316406,
+   "bar": "2026-10-28 00:00",
+   "close": 191.9199981689453,
    "ema180": 1,
    "mom": 0,
    "M": 1,
@@ -1591,8 +1637,8 @@
    "A1": 1
   },
   "TTE.PA|1d": {
-   "bar": "2026-10-27 00:00",
-   "close": 83.0,
+   "bar": "2026-10-28 00:00",
+   "close": 83.5999984741211,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -1604,21 +1650,21 @@
    "A1": 1
   },
   "SAN.PA|1d": {
-   "bar": "2026-10-27 00:00",
-   "close": 75.1500015258789,
-   "ema180": 0,
+   "bar": "2026-10-28 00:00",
+   "close": 75.51000213623047,
+   "ema180": 1,
    "mom": 1,
    "M": -1,
    "W": -1,
    "D": -1,
    "T": 1,
-   "S": -1,
+   "S": 1,
    "A": -1,
    "A1": -1
   },
   "SAP.DE|1d": {
-   "bar": "2026-10-27 00:00",
-   "close": 213.14999389648438,
+   "bar": "2026-10-28 00:00",
+   "close": 211.1999969482422,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -1630,10 +1676,10 @@
    "A1": -1
   },
   "ASML.AS|1d": {
-   "bar": "2026-10-27 00:00",
-   "close": 1470.0,
+   "bar": "2026-10-28 00:00",
+   "close": 1489.5999755859375,
    "ema180": 1,
-   "mom": -1,
+   "mom": 0,
    "M": 1,
    "W": 1,
    "D": 1,
@@ -1643,8 +1689,8 @@
    "A1": 1
   },
   "BTC-USD|1d": {
-   "bar": "2026-10-27 00:00",
-   "close": 80805.078125,
+   "bar": "2026-10-28 00:00",
+   "close": 81267.5859375,
    "ema180": 1,
    "mom": -1,
    "M": 1,
@@ -1656,8 +1702,8 @@
    "A1": -1
   },
   "ETH-USD|1d": {
-   "bar": "2026-10-27 00:00",
-   "close": 2347.72998046875,
+   "bar": "2026-10-28 00:00",
+   "close": 2357.6240234375,
    "ema180": 1,
    "mom": -1,
    "M": 1,
