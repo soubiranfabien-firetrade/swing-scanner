@@ -213,6 +213,7 @@
   "ETH-USD|2h|2026-11-02 14:00|mom:-1",
   "ETH-USD|2h|2026-11-02 14:00|pivot_dn:GRAPHIQUE",
   "ETH-USD|2h|2026-11-02 16:00|pivot_up:GRAPHIQUE",
+  "ETH-USD|2h|2026-11-03 00:00|pivot_dn:GRAPHIQUE",
   "GOOGL|1d|2026-10-22 00:00|ema:0",
   "GOOGL|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "GOOGL|1d|2026-10-28 00:00|table:JOURNALIER:-1",
@@ -2139,6 +2140,13 @@
    "tf": "1d",
    "bar": "2026-11-02 00:00",
    "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE, HEBDO)"
+  },
+  {
+   "time": "2026-11-03 07:52",
+   "symbol": "ETH-USD",
+   "tf": "2h",
+   "bar": "2026-11-03 00:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE)"
   }
  ],
  "snapshot": {
@@ -2573,7 +2581,7 @@
   },
   "SAN.PA|2h": {
    "bar": "2026-11-02 09:00",
-   "close": 80.20999908447266,
+   "close": 80.2300033569336,
    "ema180": 1,
    "mom": 1,
    "M": 0,
@@ -2650,8 +2658,8 @@
    "A1": -1
   },
   "BTC-USD|2h": {
-   "bar": "2026-11-02 16:00",
-   "close": 76788.4921875,
+   "bar": "2026-11-03 00:00",
+   "close": 76455.25,
    "ema180": 0,
    "mom": -1,
    "M": 1,
@@ -2676,8 +2684,8 @@
    "A1": -1
   },
   "ETH-USD|2h": {
-   "bar": "2026-11-02 16:00",
-   "close": 2252.989990234375,
+   "bar": "2026-11-03 00:00",
+   "close": 2242.280029296875,
    "ema180": 0,
    "mom": -1,
    "M": 1,
