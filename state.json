@@ -177,6 +177,7 @@
   "BTC-USD|2h|2026-11-02 04:00|mom:0",
   "BTC-USD|2h|2026-11-02 08:00|mom:-1",
   "BTC-USD|2h|2026-11-02 10:00|pivot_dn:GRAPHIQUE",
+  "BTC-USD|2h|2026-11-03 06:00|mom:0",
   "ETH-USD|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "ETH-USD|1d|2026-10-26 00:00|pivot_dn:GRAPHIQUE",
   "ETH-USD|1d|2026-10-27 00:00|pivot_up:GRAPHIQUE",
@@ -2216,6 +2217,13 @@
    "tf": "2h",
    "bar": "2026-11-03 05:00",
    "text": "CASSURE PIVOT BAISSIÈRE (JOURNALIER)"
+  },
+  {
+   "time": "2026-11-03 13:48",
+   "symbol": "BTC-USD",
+   "tf": "2h",
+   "bar": "2026-11-03 06:00",
+   "text": "MOMENTUM GRIS"
   }
  ],
  "snapshot": {
@@ -2727,10 +2735,10 @@
    "A1": -1
   },
   "BTC-USD|2h": {
-   "bar": "2026-11-03 04:00",
-   "close": 77003.9375,
+   "bar": "2026-11-03 06:00",
+   "close": 77299.046875,
    "ema180": 0,
-   "mom": -1,
+   "mom": 0,
    "M": 1,
    "W": 1,
    "D": 1,
@@ -2753,8 +2761,8 @@
    "A1": -1
   },
   "ETH-USD|2h": {
-   "bar": "2026-11-03 04:00",
-   "close": 2268.5,
+   "bar": "2026-11-03 06:00",
+   "close": 2279.31005859375,
    "ema180": 0,
    "mom": 0,
    "M": 1,
