@@ -96,6 +96,8 @@
   "AIR.PA|2h|2026-11-03 07:00|mom:0",
   "AIR.PA|2h|2026-11-03 11:00|ema:0",
   "AIR.PA|2h|2026-11-04 05:00|rib:SEMESTRE:1",
+  "AIR.PA|2h|2026-11-04 07:00|pivot_up:GRAPHIQUE",
+  "AIR.PA|2h|2026-11-04 07:00|rib:ANNÉE:1",
   "AMZN|1d|2026-10-22 00:00|mom:0",
   "AMZN|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE",
   "AMZN|1d|2026-10-22 00:00|rib:TRIMESTRE:-1",
@@ -148,6 +150,7 @@
   "ASML.AS|2h|2026-10-30 04:00|mom:0",
   "ASML.AS|2h|2026-10-30 04:00|pivot_dn:GRAPHIQUE",
   "ASML.AS|2h|2026-10-30 06:00|mom:-1",
+  "ASML.AS|2h|2026-11-04 07:00|pivot_dn:GRAPHIQUE,JOURNALIER,HEBDO",
   "BTC-USD|1d|2026-10-22 00:00|mom:-1",
   "BTC-USD|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "BTC-USD|1d|2026-10-22 00:00|rib:TRIMESTRE:-1",
@@ -194,6 +197,7 @@
   "BTC-USD|2h|2026-11-03 06:00|mom:0",
   "BTC-USD|2h|2026-11-03 10:00|mom:1",
   "BTC-USD|2h|2026-11-03 10:00|pivot_up:GRAPHIQUE",
+  "BTC-USD|2h|2026-11-04 08:00|pivot_up:GRAPHIQUE",
   "ETH-USD|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "ETH-USD|1d|2026-10-26 00:00|pivot_dn:GRAPHIQUE",
   "ETH-USD|1d|2026-10-27 00:00|pivot_up:GRAPHIQUE",
@@ -241,6 +245,8 @@
   "ETH-USD|2h|2026-11-04 04:00|pivot_up:JOURNALIER",
   "ETH-USD|2h|2026-11-04 06:00|ema:0",
   "ETH-USD|2h|2026-11-04 06:00|pivot_dn:GRAPHIQUE,JOURNALIER",
+  "ETH-USD|2h|2026-11-04 08:00|ema:1",
+  "ETH-USD|2h|2026-11-04 08:00|pivot_up:GRAPHIQUE,JOURNALIER",
   "GOOGL|1d|2026-10-22 00:00|ema:0",
   "GOOGL|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "GOOGL|1d|2026-10-28 00:00|table:JOURNALIER:-1",
@@ -349,6 +355,8 @@
   "OR.PA|2h|2026-11-03 09:00|mom:0",
   "OR.PA|2h|2026-11-04 05:00|hh",
   "OR.PA|2h|2026-11-04 05:00|pivot_up:GRAPHIQUE",
+  "OR.PA|2h|2026-11-04 07:00|mom:1",
+  "OR.PA|2h|2026-11-04 07:00|pivot_up:GRAPHIQUE,JOURNALIER,HEBDO",
   "SAN.PA|1d|2026-10-22 00:00|rib:TRIMESTRE:1",
   "SAN.PA|1d|2026-10-23 00:00|rib:TRIMESTRE:-1",
   "SAN.PA|1d|2026-10-27 00:00|rib:TRIMESTRE:1",
@@ -381,6 +389,7 @@
   "SAN.PA|2h|2026-11-03 11:00|pivot_up:GRAPHIQUE",
   "SAN.PA|2h|2026-11-04 05:00|hh",
   "SAN.PA|2h|2026-11-04 05:00|pivot_up:GRAPHIQUE",
+  "SAN.PA|2h|2026-11-04 07:00|rib:ANNÉE:1",
   "SAP.DE|1wk|2026-10-12 00:00|hh",
   "SAP.DE|1wk|2026-10-12 00:00|rib:ANNÉE:1",
   "SAP.DE|1wk|2026-10-12 00:00|table:HEBDO:1",
@@ -396,6 +405,7 @@
   "SAP.DE|2h|2026-11-03 03:00|rib:ANNÉE:-1",
   "SAP.DE|2h|2026-11-03 05:00|pivot_dn:JOURNALIER",
   "SAP.DE|2h|2026-11-03 09:00|pivot_up:JOURNALIER",
+  "SAP.DE|2h|2026-11-04 07:00|buy",
   "TTE.PA|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE",
   "TTE.PA|1d|2026-10-23 00:00|hh",
   "TTE.PA|1d|2026-10-23 00:00|pivot_up:GRAPHIQUE",
@@ -2500,6 +2510,55 @@
    "tf": "2h",
    "bar": "2026-11-04 06:00",
    "text": "EMA 180 VIOLETTE (descendante) ; CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, JOURNALIER)"
+  },
+  {
+   "time": "2026-11-04 15:29",
+   "symbol": "OR.PA",
+   "tf": "2h",
+   "bar": "2026-11-04 07:00",
+   "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE, JOURNALIER, HEBDO) ; MOMENTUM VERT"
+  },
+  {
+   "time": "2026-11-04 15:29",
+   "symbol": "AIR.PA",
+   "tf": "2h",
+   "bar": "2026-11-04 07:00",
+   "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE) ; ANNÉE BLEU"
+  },
+  {
+   "time": "2026-11-04 15:29",
+   "symbol": "SAN.PA",
+   "tf": "2h",
+   "bar": "2026-11-04 07:00",
+   "text": "ANNÉE BLEU"
+  },
+  {
+   "time": "2026-11-04 15:29",
+   "symbol": "SAP.DE",
+   "tf": "2h",
+   "bar": "2026-11-04 07:00",
+   "text": "ACHAT SWING (entrée 212.25 | SL 203.10 | TP 230.55)"
+  },
+  {
+   "time": "2026-11-04 15:29",
+   "symbol": "ASML.AS",
+   "tf": "2h",
+   "bar": "2026-11-04 07:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, JOURNALIER, HEBDO)"
+  },
+  {
+   "time": "2026-11-04 15:29",
+   "symbol": "BTC-USD",
+   "tf": "2h",
+   "bar": "2026-11-04 08:00",
+   "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE)"
+  },
+  {
+   "time": "2026-11-04 15:29",
+   "symbol": "ETH-USD",
+   "tf": "2h",
+   "bar": "2026-11-04 08:00",
+   "text": "EMA 180 ROSE (montante) ; CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE, JOURNALIER)"
   }
  ],
  "snapshot": {
@@ -2829,8 +2888,8 @@
    "A1": -1
   },
   "MC.PA|2h": {
-   "bar": "2026-11-04 05:00",
-   "close": 407.79998779296875,
+   "bar": "2026-11-04 07:00",
+   "close": 413.8999938964844,
    "ema180": 1,
    "mom": 1,
    "M": -1,
@@ -2855,10 +2914,10 @@
    "A1": 1
   },
   "OR.PA|2h": {
-   "bar": "2026-11-04 05:00",
-   "close": 439.5,
+   "bar": "2026-11-04 07:00",
+   "close": 445.3500061035156,
    "ema180": 1,
-   "mom": 0,
+   "mom": 1,
    "M": 1,
    "W": 1,
    "D": 1,
@@ -2881,8 +2940,8 @@
    "A1": 1
   },
   "AIR.PA|2h": {
-   "bar": "2026-11-04 05:00",
-   "close": 195.6199951171875,
+   "bar": "2026-11-04 07:00",
+   "close": 199.32000732421875,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -2890,7 +2949,7 @@
    "D": 1,
    "T": 1,
    "S": 1,
-   "A": -1,
+   "A": 1,
    "A1": -1
   },
   "TTE.PA|1wk": {
@@ -2907,8 +2966,8 @@
    "A1": 1
   },
   "TTE.PA|2h": {
-   "bar": "2026-11-04 05:00",
-   "close": 83.0999984741211,
+   "bar": "2026-11-04 07:00",
+   "close": 82.72000122070312,
    "ema180": 1,
    "mom": -1,
    "M": 1,
@@ -2933,8 +2992,8 @@
    "A1": -1
   },
   "SAN.PA|2h": {
-   "bar": "2026-11-04 05:00",
-   "close": 82.41999816894531,
+   "bar": "2026-11-04 07:00",
+   "close": 83.38999938964844,
    "ema180": 1,
    "mom": 1,
    "M": -1,
@@ -2942,7 +3001,7 @@
    "D": 1,
    "T": 1,
    "S": 1,
-   "A": -1,
+   "A": 1,
    "A1": -1
   },
   "SAP.DE|1wk": {
@@ -2959,8 +3018,8 @@
    "A1": -1
   },
   "SAP.DE|2h": {
-   "bar": "2026-11-04 05:00",
-   "close": 210.39999389648438,
+   "bar": "2026-11-04 07:00",
+   "close": 212.25,
    "ema180": 1,
    "mom": 0,
    "M": 1,
@@ -2985,8 +3044,8 @@
    "A1": 1
   },
   "ASML.AS|2h": {
-   "bar": "2026-11-04 05:00",
-   "close": 1374.199951171875,
+   "bar": "2026-11-04 07:00",
+   "close": 1343.800048828125,
    "ema180": 0,
    "mom": -1,
    "M": 1,
@@ -3011,8 +3070,8 @@
    "A1": -1
   },
   "BTC-USD|2h": {
-   "bar": "2026-11-04 06:00",
-   "close": 78195.7578125,
+   "bar": "2026-11-04 08:00",
+   "close": 79243.5234375,
    "ema180": 0,
    "mom": 1,
    "M": 1,
@@ -3037,9 +3096,9 @@
    "A1": -1
   },
   "ETH-USD|2h": {
-   "bar": "2026-11-04 06:00",
-   "close": 2311.360107421875,
-   "ema180": 0,
+   "bar": "2026-11-04 08:00",
+   "close": 2376.43994140625,
+   "ema180": 1,
    "mom": 1,
    "M": 1,
    "W": -1,
