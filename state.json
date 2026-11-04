@@ -204,6 +204,8 @@
   "BTC-USD|2h|2026-11-03 10:00|mom:1",
   "BTC-USD|2h|2026-11-03 10:00|pivot_up:GRAPHIQUE",
   "BTC-USD|2h|2026-11-04 08:00|pivot_up:GRAPHIQUE",
+  "BTC-USD|2h|2026-11-04 10:00|ema:1",
+  "BTC-USD|2h|2026-11-04 10:00|pivot_up:GRAPHIQUE,JOURNALIER",
   "ETH-USD|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "ETH-USD|1d|2026-10-26 00:00|pivot_dn:GRAPHIQUE",
   "ETH-USD|1d|2026-10-27 00:00|pivot_up:GRAPHIQUE",
@@ -253,6 +255,7 @@
   "ETH-USD|2h|2026-11-04 06:00|pivot_dn:GRAPHIQUE,JOURNALIER",
   "ETH-USD|2h|2026-11-04 08:00|ema:1",
   "ETH-USD|2h|2026-11-04 08:00|pivot_up:GRAPHIQUE,JOURNALIER",
+  "ETH-USD|2h|2026-11-04 10:00|pivot_up:GRAPHIQUE",
   "GOOGL|1d|2026-10-22 00:00|ema:0",
   "GOOGL|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "GOOGL|1d|2026-10-28 00:00|table:JOURNALIER:-1",
@@ -2615,6 +2618,20 @@
    "tf": "2h",
    "bar": "2026-11-04 09:00",
    "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE) ; MOMENTUM VERT"
+  },
+  {
+   "time": "2026-11-04 17:30",
+   "symbol": "BTC-USD",
+   "tf": "2h",
+   "bar": "2026-11-04 10:00",
+   "text": "EMA 180 ROSE (montante) ; CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE, JOURNALIER)"
+  },
+  {
+   "time": "2026-11-04 17:30",
+   "symbol": "ETH-USD",
+   "tf": "2h",
+   "bar": "2026-11-04 10:00",
+   "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE)"
   }
  ],
  "snapshot": {
@@ -3126,9 +3143,9 @@
    "A1": -1
   },
   "BTC-USD|2h": {
-   "bar": "2026-11-04 08:00",
-   "close": 79246.421875,
-   "ema180": 0,
+   "bar": "2026-11-04 10:00",
+   "close": 80460.546875,
+   "ema180": 1,
    "mom": 1,
    "M": 1,
    "W": 1,
@@ -3152,8 +3169,8 @@
    "A1": -1
   },
   "ETH-USD|2h": {
-   "bar": "2026-11-04 08:00",
-   "close": 2376.18994140625,
+   "bar": "2026-11-04 10:00",
+   "close": 2433.110107421875,
    "ema180": 1,
    "mom": 1,
    "M": 1,
