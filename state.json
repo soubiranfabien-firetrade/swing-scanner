@@ -239,6 +239,8 @@
   "ETH-USD|2h|2026-11-04 02:00|pivot_up:GRAPHIQUE",
   "ETH-USD|2h|2026-11-04 04:00|ema:1",
   "ETH-USD|2h|2026-11-04 04:00|pivot_up:JOURNALIER",
+  "ETH-USD|2h|2026-11-04 06:00|ema:0",
+  "ETH-USD|2h|2026-11-04 06:00|pivot_dn:GRAPHIQUE,JOURNALIER",
   "GOOGL|1d|2026-10-22 00:00|ema:0",
   "GOOGL|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "GOOGL|1d|2026-10-28 00:00|table:JOURNALIER:-1",
@@ -2491,6 +2493,13 @@
    "tf": "2h",
    "bar": "2026-11-04 04:00",
    "text": "EMA 180 ROSE (montante) ; CASSURE PIVOT HAUSSIÈRE (JOURNALIER)"
+  },
+  {
+   "time": "2026-11-04 13:48",
+   "symbol": "ETH-USD",
+   "tf": "2h",
+   "bar": "2026-11-04 06:00",
+   "text": "EMA 180 VIOLETTE (descendante) ; CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, JOURNALIER)"
   }
  ],
  "snapshot": {
@@ -3002,8 +3011,8 @@
    "A1": -1
   },
   "BTC-USD|2h": {
-   "bar": "2026-11-04 04:00",
-   "close": 78487.1171875,
+   "bar": "2026-11-04 06:00",
+   "close": 78195.7578125,
    "ema180": 0,
    "mom": 1,
    "M": 1,
@@ -3028,9 +3037,9 @@
    "A1": -1
   },
   "ETH-USD|2h": {
-   "bar": "2026-11-04 04:00",
-   "close": 2324.949951171875,
-   "ema180": 1,
+   "bar": "2026-11-04 06:00",
+   "close": 2311.360107421875,
+   "ema180": 0,
    "mom": 1,
    "M": 1,
    "W": -1,
