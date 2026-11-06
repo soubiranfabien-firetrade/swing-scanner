@@ -14,6 +14,7 @@
   "AAPL|1d|2026-11-04 00:00|buy",
   "AAPL|1d|2026-11-04 00:00|mom:0",
   "AAPL|1d|2026-11-04 00:00|pivot_up:GRAPHIQUE,HEBDO",
+  "AAPL|1d|2026-11-05 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "AAPL|1wk|2026-10-19 00:00|hh",
   "AAPL|1wk|2026-10-19 00:00|pivot_up:GRAPHIQUE",
   "AAPL|2h|2026-10-22 15:30|pivot_up:GRAPHIQUE,JOURNALIER",
@@ -65,6 +66,10 @@
   "AIR.PA|1d|2026-11-03 00:00|mom:-1",
   "AIR.PA|1d|2026-11-03 00:00|rib:ANNÉE:-1",
   "AIR.PA|1d|2026-11-03 00:00|rib:SEMESTRE:-1",
+  "AIR.PA|1d|2026-11-04 00:00|hh",
+  "AIR.PA|1d|2026-11-04 00:00|mom:0",
+  "AIR.PA|1d|2026-11-04 00:00|rib:ANNÉE:1",
+  "AIR.PA|1d|2026-11-04 00:00|rib:SEMESTRE:1",
   "AIR.PA|1wk|2026-10-12 00:00|mom:0",
   "AIR.PA|1wk|2026-10-12 00:00|rib:TRIMESTRE:1",
   "AIR.PA|1wk|2026-10-12 00:00|table:JOURNALIER:-1",
@@ -132,6 +137,7 @@
   "AMZN|1d|2026-11-04 00:00|mom:0",
   "AMZN|1d|2026-11-04 00:00|pivot_up:GRAPHIQUE",
   "AMZN|1d|2026-11-04 00:00|rib:TRIMESTRE:1",
+  "AMZN|1d|2026-11-05 00:00|pivot_dn:GRAPHIQUE",
   "AMZN|1wk|2026-10-12 00:00|mom:0",
   "AMZN|1wk|2026-10-12 00:00|rib:TRIMESTRE:-1",
   "AMZN|1wk|2026-10-19 00:00|mom:-1",
@@ -167,6 +173,7 @@
   "ASML.AS|1d|2026-10-28 00:00|mom:0",
   "ASML.AS|1d|2026-10-30 00:00|mom:-1",
   "ASML.AS|1d|2026-11-03 00:00|ema:0",
+  "ASML.AS|1d|2026-11-04 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "ASML.AS|1wk|2026-10-12 00:00|mom:-1",
   "ASML.AS|2h|2026-10-26 10:00|mom:0",
   "ASML.AS|2h|2026-10-27 04:00|mom:1",
@@ -181,6 +188,8 @@
   "BTC-USD|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "BTC-USD|1d|2026-10-22 00:00|rib:TRIMESTRE:-1",
   "BTC-USD|1d|2026-10-29 00:00|pivot_dn:GRAPHIQUE",
+  "BTC-USD|1d|2026-11-04 00:00|mom:0",
+  "BTC-USD|1d|2026-11-04 00:00|pivot_up:GRAPHIQUE",
   "BTC-USD|1wk|2026-10-12 00:00|pivot_dn:GRAPHIQUE",
   "BTC-USD|1wk|2026-10-26 00:00|mom:0",
   "BTC-USD|2h|2026-10-23 06:00|mom:0",
@@ -237,6 +246,9 @@
   "ETH-USD|1d|2026-10-27 00:00|pivot_up:GRAPHIQUE",
   "ETH-USD|1d|2026-10-29 00:00|ema:0",
   "ETH-USD|1d|2026-10-29 00:00|pivot_dn:GRAPHIQUE",
+  "ETH-USD|1d|2026-11-04 00:00|ema:1",
+  "ETH-USD|1d|2026-11-04 00:00|mom:0",
+  "ETH-USD|1d|2026-11-04 00:00|pivot_up:GRAPHIQUE",
   "ETH-USD|1wk|2026-10-12 00:00|ema:0",
   "ETH-USD|1wk|2026-10-12 00:00|pivot_dn:GRAPHIQUE",
   "ETH-USD|1wk|2026-10-19 00:00|mom:0",
@@ -314,6 +326,7 @@
   "MC.PA|1d|2026-11-02 00:00|mom:0",
   "MC.PA|1d|2026-11-02 00:00|rib:TRIMESTRE:1",
   "MC.PA|1d|2026-11-03 00:00|pivot_up:GRAPHIQUE",
+  "MC.PA|1d|2026-11-04 00:00|mom:1",
   "MC.PA|2h|2026-10-26 04:00|mom:0",
   "MC.PA|2h|2026-10-26 04:00|rib:TRIMESTRE:1",
   "MC.PA|2h|2026-10-26 08:00|mom:1",
@@ -353,6 +366,7 @@
   "MSFT|1d|2026-11-04 00:00|buy",
   "MSFT|1d|2026-11-04 00:00|mom:0",
   "MSFT|1d|2026-11-04 00:00|pivot_up:GRAPHIQUE,HEBDO",
+  "MSFT|1d|2026-11-05 00:00|pivot_dn:GRAPHIQUE,HEBDO",
   "MSFT|2h|2026-10-23 09:30|pivot_up:GRAPHIQUE",
   "MSFT|2h|2026-10-23 13:30|pivot_dn:GRAPHIQUE",
   "MSFT|2h|2026-10-26 09:30|mom:0",
@@ -379,6 +393,9 @@
   "NVDA|1d|2026-10-26 00:00|pivot_up:GRAPHIQUE,HEBDO",
   "NVDA|1d|2026-10-30 00:00|ema:0",
   "NVDA|1d|2026-10-30 00:00|pivot_dn:GRAPHIQUE,HEBDO",
+  "NVDA|1d|2026-11-05 00:00|pivot_dn:GRAPHIQUE,HEBDO",
+  "NVDA|1d|2026-11-05 00:00|rib:ANNÉE:-1",
+  "NVDA|1d|2026-11-05 00:00|rib:SEMESTRE:-1",
   "NVDA|1wk|2026-10-12 00:00|mom:0",
   "NVDA|1wk|2026-10-19 00:00|pivot_dn:GRAPHIQUE",
   "NVDA|2h|2026-10-22 13:30|mom:-1",
@@ -402,6 +419,8 @@
   "NVDA|2h|2026-11-05 09:30|rib:ANNÉE:-1",
   "NVDA|2h|2026-11-05 09:30|rib:SEMESTRE:-1",
   "OR.PA|1d|2026-10-22 00:00|hh",
+  "OR.PA|1d|2026-11-04 00:00|hh",
+  "OR.PA|1d|2026-11-04 00:00|pivot_up:GRAPHIQUE",
   "OR.PA|1wk|2026-10-12 00:00|mom:1",
   "OR.PA|1wk|2026-10-12 00:00|pivot_up:GRAPHIQUE",
   "OR.PA|1wk|2026-10-12 00:00|rib:SEMESTRE:1",
@@ -476,6 +495,7 @@
   "TTE.PA|1d|2026-10-22 00:00|pivot_dn:GRAPHIQUE",
   "TTE.PA|1d|2026-10-23 00:00|hh",
   "TTE.PA|1d|2026-10-23 00:00|pivot_up:GRAPHIQUE",
+  "TTE.PA|1d|2026-11-04 00:00|mom:0",
   "TTE.PA|1wk|2026-10-12 00:00|pivot_up:GRAPHIQUE",
   "TTE.PA|2h|2026-10-23 05:00|hh",
   "TTE.PA|2h|2026-10-23 05:00|pivot_up:GRAPHIQUE",
@@ -2917,12 +2937,89 @@
    "tf": "2h",
    "bar": "2026-11-05 13:30",
    "text": "MOMENTUM GRIS"
+  },
+  {
+   "time": "2026-11-06 06:22",
+   "symbol": "AAPL",
+   "tf": "1d",
+   "bar": "2026-11-05 00:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, HEBDO)"
+  },
+  {
+   "time": "2026-11-06 06:22",
+   "symbol": "MSFT",
+   "tf": "1d",
+   "bar": "2026-11-05 00:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, HEBDO)"
+  },
+  {
+   "time": "2026-11-06 06:22",
+   "symbol": "NVDA",
+   "tf": "1d",
+   "bar": "2026-11-05 00:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, HEBDO) ; SEMESTRE ROSE ; ANNÉE ROSE"
+  },
+  {
+   "time": "2026-11-06 06:22",
+   "symbol": "AMZN",
+   "tf": "1d",
+   "bar": "2026-11-05 00:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE)"
+  },
+  {
+   "time": "2026-11-06 06:22",
+   "symbol": "MC.PA",
+   "tf": "1d",
+   "bar": "2026-11-04 00:00",
+   "text": "MOMENTUM VERT"
+  },
+  {
+   "time": "2026-11-06 06:22",
+   "symbol": "OR.PA",
+   "tf": "1d",
+   "bar": "2026-11-04 00:00",
+   "text": "CASSURE HH (sommet 442.35) ; CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE)"
+  },
+  {
+   "time": "2026-11-06 06:22",
+   "symbol": "AIR.PA",
+   "tf": "1d",
+   "bar": "2026-11-04 00:00",
+   "text": "CASSURE HH (sommet 199.60) ; SEMESTRE BLEU ; ANNÉE BLEU ; MOMENTUM GRIS"
+  },
+  {
+   "time": "2026-11-06 06:22",
+   "symbol": "TTE.PA",
+   "tf": "1d",
+   "bar": "2026-11-04 00:00",
+   "text": "MOMENTUM GRIS"
+  },
+  {
+   "time": "2026-11-06 06:22",
+   "symbol": "ASML.AS",
+   "tf": "1d",
+   "bar": "2026-11-04 00:00",
+   "text": "CASSURE PIVOT BAISSIÈRE (GRAPHIQUE, HEBDO)"
+  },
+  {
+   "time": "2026-11-06 06:22",
+   "symbol": "BTC-USD",
+   "tf": "1d",
+   "bar": "2026-11-04 00:00",
+   "text": "CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE) ; MOMENTUM GRIS"
+  },
+  {
+   "time": "2026-11-06 06:22",
+   "symbol": "ETH-USD",
+   "tf": "1d",
+   "bar": "2026-11-04 00:00",
+   "text": "EMA 180 ROSE (montante) ; CASSURE PIVOT HAUSSIÈRE (GRAPHIQUE) ; MOMENTUM GRIS"
   }
  ],
  "snapshot": {
   "AAPL|1d": {
-   "bar": "2026-11-04 00:00",
-   "close": 349.510009765625,
+   "bar": "2026-11-05 00:00",
+   "close": 344.1700134277344,
    "ema180": 1,
    "mom": 0,
    "M": 1,
@@ -2934,8 +3031,8 @@
    "A1": 1
   },
   "MSFT|1d": {
-   "bar": "2026-11-04 00:00",
-   "close": 555.7999877929688,
+   "bar": "2026-11-05 00:00",
+   "close": 535.9299926757812,
    "ema180": 1,
    "mom": 0,
    "M": 1,
@@ -2947,21 +3044,21 @@
    "A1": 1
   },
   "NVDA|1d": {
-   "bar": "2026-11-04 00:00",
-   "close": 200.1300048828125,
+   "bar": "2026-11-05 00:00",
+   "close": 181.60000610351562,
    "ema180": 0,
    "mom": -1,
    "M": 1,
    "W": 1,
    "D": 1,
    "T": -1,
-   "S": 1,
-   "A": 1,
+   "S": -1,
+   "A": -1,
    "A1": 1
   },
   "AMZN|1d": {
-   "bar": "2026-11-04 00:00",
-   "close": 266.0299987792969,
+   "bar": "2026-11-05 00:00",
+   "close": 260.2099914550781,
    "ema180": 1,
    "mom": 0,
    "M": 1,
@@ -2973,8 +3070,8 @@
    "A1": 1
   },
   "GOOGL|1d": {
-   "bar": "2026-11-04 00:00",
-   "close": 288.92999267578125,
+   "bar": "2026-11-05 00:00",
+   "close": 282.57000732421875,
    "ema180": 0,
    "mom": -1,
    "M": 1,
@@ -2986,10 +3083,10 @@
    "A1": 1
   },
   "MC.PA|1d": {
-   "bar": "2026-11-03 00:00",
-   "close": 401.5,
+   "bar": "2026-11-04 00:00",
+   "close": 416.25,
    "ema180": 0,
-   "mom": 0,
+   "mom": 1,
    "M": -1,
    "W": -1,
    "D": -1,
@@ -2999,8 +3096,8 @@
    "A1": -1
   },
   "OR.PA|1d": {
-   "bar": "2026-11-03 00:00",
-   "close": 432.70001220703125,
+   "bar": "2026-11-04 00:00",
+   "close": 444.75,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -3012,23 +3109,23 @@
    "A1": 1
   },
   "AIR.PA|1d": {
-   "bar": "2026-11-03 00:00",
-   "close": 193.32000732421875,
+   "bar": "2026-11-04 00:00",
+   "close": 200.10000610351562,
    "ema180": 1,
-   "mom": -1,
+   "mom": 0,
    "M": 1,
    "W": 1,
    "D": 1,
    "T": 1,
-   "S": -1,
-   "A": -1,
+   "S": 1,
+   "A": 1,
    "A1": 1
   },
   "TTE.PA|1d": {
-   "bar": "2026-11-03 00:00",
-   "close": 82.70999908447266,
+   "bar": "2026-11-04 00:00",
+   "close": 81.56999969482422,
    "ema180": 1,
-   "mom": 1,
+   "mom": 0,
    "M": 1,
    "W": 1,
    "D": 1,
@@ -3038,8 +3135,8 @@
    "A1": 1
   },
   "SAN.PA|1d": {
-   "bar": "2026-11-03 00:00",
-   "close": 80.9800033569336,
+   "bar": "2026-11-04 00:00",
+   "close": 84.0999984741211,
    "ema180": 1,
    "mom": 1,
    "M": -1,
@@ -3051,8 +3148,8 @@
    "A1": -1
   },
   "SAP.DE|1d": {
-   "bar": "2026-11-03 00:00",
-   "close": 206.64999389648438,
+   "bar": "2026-11-04 00:00",
+   "close": 214.3000030517578,
    "ema180": 1,
    "mom": 1,
    "M": 1,
@@ -3064,8 +3161,8 @@
    "A1": -1
   },
   "ASML.AS|1d": {
-   "bar": "2026-11-03 00:00",
-   "close": 1385.0,
+   "bar": "2026-11-04 00:00",
+   "close": 1337.5999755859375,
    "ema180": 0,
    "mom": -1,
    "M": 1,
@@ -3077,10 +3174,10 @@
    "A1": 1
   },
   "BTC-USD|1d": {
-   "bar": "2026-11-03 00:00",
-   "close": 77345.046875,
+   "bar": "2026-11-04 00:00",
+   "close": 80405.2890625,
    "ema180": 1,
-   "mom": -1,
+   "mom": 0,
    "M": 1,
    "W": 1,
    "D": 1,
@@ -3090,10 +3187,10 @@
    "A1": -1
   },
   "ETH-USD|1d": {
-   "bar": "2026-11-03 00:00",
-   "close": 2272.725830078125,
-   "ema180": 0,
-   "mom": -1,
+   "bar": "2026-11-04 00:00",
+   "close": 2422.311767578125,
+   "ema180": 1,
+   "mom": 0,
    "M": 1,
    "W": -1,
    "D": 1,
